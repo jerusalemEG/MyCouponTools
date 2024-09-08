@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>أدوات للبيع</title>
+    <title>Tools For Sell</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -13,7 +13,7 @@
         }
 
         header {
-            background-color: #333;
+            background-color: #6ab0ff; /* اللون الأزرق الفاتح */
             color: white;
             text-align: center;
             padding: 20px;
@@ -44,11 +44,13 @@
             background-color: #0056b3;
         }
 
-        footer {
+        section#terms,
+        section#contact {
             padding: 20px;
-            background-color: #333;
-            color: white;
-            text-align: center;
+            background-color: white;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
         a.link {
@@ -59,31 +61,52 @@
         a.link:hover {
             text-decoration: underline;
         }
+
+        .features {
+            margin-top: 20px;
+        }
+
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .features li {
+            padding: 5px 0;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>أدوات للبيع</h1>
+        <h1>Tools For Sell</h1>
     </header>
 
     <section class="product">
-        <h2>الأداة 1</h2>
+        <h2>Manual Tool Extract Coupon</h2>
         <p>قم بتحميل الأداة من الرابط أدناه:</p>
         <a href="https://www.mediafire.com/file/x5cs07cjju4nqvg/Sell_Version.rar/file" class="btn">تحميل الأداة</a>
-        <p><a href="#terms" class="link">شروط الاستخدام</a></p>
-        <p><a href="#contact" class="link">للتواصل معنا</a></p>
+        <p><a href="https://www.facebook.com/engwebdev" class="link">للتواصل معنا</a></p>
+        <p><a href="https://www.facebook.com/engwebdev" class="link">فيديو الشرح</a></p>
+        <div class="description">
+            <h3>وصف الأداة</h3>
+            <p>اداة تقوم باستخراج قسائم الفيس بوك باحترافية.</p>
+        </div>
+
+        <div class="features">
+            <h3>مميزات الأداة</h3>
+            <ul>
+                <li>تعمل الاداة بطريقة يدوية.</li>
+                <li>الاداة لا تحتاج لتأكيد رقم الهاتف لاستخراج القسيمة.</li>
+                <li>الاداة لا تحتاج لاضافة كارت لاستخراج القسيمة او اى شىء فقط الضغط على زر الاستخراج بالبرنامج.</li>
+                <li>الاداة لا تحتاج الاتصال بالبروكسى او تغيير الايبى لاستخراج القسيمة.</li>
+                <li>بعد الاستخراج تقوم الاداة بتكرار قيمة القسيمة.</li>
+            </ul>
+        </div>
     </section>
 
-    <footer>
-        <section id="terms">
-            <h3>شروط الاستخدام</h3>
-            <p>هنا تكتب الشروط الخاصة باستخدام الأدوات التي تبيعها.</p>
-        </section>
-
-        <section id="contact">
-            <h3>للتواصل معنا</h3>
-            <p>يمكنك التواصل عبر البريد الإلكتروني: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        </section>
-    </footer>
+    <section id="terms">
+        <h3>شروط الاستخدام</h3>
+        <p>غير مسؤول عن أي استخدام غير مصرح به للأداة.</p>
+    </section>
 </body>
 </html>
